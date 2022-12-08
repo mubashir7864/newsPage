@@ -1,0 +1,191 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  line-height: 1.55;
+  color: black;
+  margin-top: 0 auto;
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #c2bbbb;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -2px;
+}
+
+h2 {
+  font-size: 1.90rem;
+  font-weight: 700;
+  color: rgba(201, 201, 53, 0.8);
+}
+
+h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -2px;
+  margin-bottom: 2rem;
+}
+
+.num {
+  color: #b1acac;
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  letter-spacing: -1;
+}
+
+p {
+  color: #b1acac;
+  font-weight: 400;
+  font-size: 1remrem;
+}
+
+nav {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul a {
+  margin-right: 3rem;
+}
+
+nav img {
+  width: 200px;
+  padding-left: 50px;
+}
+
+.main {
+  margin: auto;
+  padding-left: 50px;
+  margin-bottom: 150px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
+.main img {
+  width: 900px;
+}
+
+.main div.new {
+  width: 400px;
+  padding: 30px 15px;
+  background-color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.main div.new h2 {
+  text-align: start;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.main div.new .ni {
+  padding: 15px;
+}
+
+.main div.new .ni h3 {
+  margin-bottom: 6px;
+}
+
+.main div.new .ni p {
+  color: rgba(128, 128, 128, 0.8);
+}
+
+.main div.new hr {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.main div.nx2 {
+  width: 400px;
+  margin-top: -350px;
+}
+
+.main div.nx3 {
+  width: 400px;
+  margin-left: -500px;
+  margin-top: -300px;
+}
+
+.main div.nx3 button {
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  background-color: lightcoral;
+  border-style: none;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: white;
+}
+
+.last {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  padding-left: 50px;
+}
+
+.lll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.foote {
+  margin-bottom: 200px;
+}
+
+.num {
+  padding-left: 20px;
+}
+/*# sourceMappingURL=index.css.map */
